@@ -33,7 +33,6 @@ setclipboard("https://discord.gg/tPGVDVTtGh")
 })
 
 Tab:AddParagraph("WARNING","Some of these scripts might be outdated. If the game you want to exploit on has updated while you're reading this, I suggest trying the script on a alt.")
-Tab:AddParagraph("Credits","All credits for scripts should be in the scripts. If you need to contact me about something, please DM streekaiz#1132")
 
 -----------------------------------------------------------------------------------------------------
 
