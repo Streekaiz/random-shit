@@ -346,16 +346,6 @@ Game:GetService("Players").LocalPlayer:Kick("You have been kicked due to unexpec
 
 Tab:AddParagraph("Kick Yourself","Have no idea why you need this.")
 
-Tab:AddButton({ -- FPS Cap 
-	Name = "Boost FPS (sets fps cap to 360)",
-	Callback = function()
-      		print("button pressed")
-setfpscap(360)
-  	end    
-})
-
-
-
 -----------------------------------------------------------------------------------------------------
 local Tab = Window:MakeTab({ -- Credits 4
 
