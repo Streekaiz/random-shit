@@ -1,6 +1,6 @@
  local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))() -- Library
 local Window = OrionLib:MakeWindow({Name = "K.pub | Script Hub", HidePremium = true, SaveConfig = false, ConfigFolder = "OrionTest"}) -- Window
-OrionLib:MakeNotification({ -- Notification Game:GetService("Players").LocalPlayer:Kick("put what ever you want here")
+OrionLib:MakeNotification({ -- Notification
 
 
 	Name = "Notification!",
