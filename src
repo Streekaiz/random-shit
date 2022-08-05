@@ -1,28 +1,28 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))() -- Library
-local Window = OrionLib:MakeWindow({Name = "K.pub | Script Hub", HidePremium = true, SaveConfig = false, ConfigFolder = "OrionTest"}) -- Window
-OrionLib:MakeNotification({ -- Notification Game:GetService("Players").LocalPlayer:Kick("put what ever you want here")
+local Window = OrionLib:MakeWindow({Name = "K.pub | Script Hub", HidePremium = false, SaveConfig = false, ConfigFolder = "OrionTest"}) -- Window
+----
+OrionLib:MakeNotification({ 
 
+	Name = "Join k.pub!",
+	Content = "In our server, we provide a lot more scripts. You can also be notified of script changes there.",
+	Image = "rbxassetid://4483345998",
+	Time = 999999
+})
+---- Changelogs
+OrionLib:MakeNotification({ 
 
-	Name = "Notification!",
-	Content = "Join our discord! We provide a lot more scripts there.",
+	Name = "Changelogs",
+	Content = "Script has been rewritten, since it was a little hard for me to read the script.",
 	Image = "rbxassetid://4483345998",
 	Time = 15
 })
-
-
-
------------------------------------------------------------------------------------------------------
-
+---- Home 
 local Tab = Window:MakeTab({ -- Info 0
 
 	Name = "Home",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
-
-
-Tab:AddParagraph("Join our discord!","In our server, we provide a lot more scripts, so come join!")
-
 
 Tab:AddButton({
 	Name = "Copy Discord Link",
@@ -33,14 +33,15 @@ setclipboard("https://discord.gg/tPGVDVTtGh")
 })
 
 Tab:AddParagraph("WARNING","Some of these scripts might be outdated. If the game you want to exploit on has updated while you're reading this, I suggest trying the script on a alt.")
-
------------------------------------------------------------------------------------------------------
+---- Scripts
 
 local Tab = Window:MakeTab({ -- Scripts 1
 	Name = "Scripts",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
+
+Tab:AddLabel("All scripts are sorted in alphabetical order.") ----
 
 Tab:AddButton({ -- Anomic
 	Name = "Anomic",
@@ -130,14 +131,6 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/RunDTM/miningsim2/mai
   	end    
 })
 
-Tab:AddButton({ -- Pet Simulator X
-	Name = "Pet Simulator X",
-	Callback = function()
-      		print("button pressed")
-loadstring(game:HttpGet("https://raw.githubusercontent.com/BLACKGAMER1221/Pet-Simulator-X/main/BK%20Pet.lua", true))()
-  	end    
-})
-
 Tab:AddButton({ -- Skywars
 	Name = "Skywars", 
 	Callback = function()
@@ -162,7 +155,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/Proxima-Hub/m
       end    
 })
 
-Tab:AddButton({ -- Infinite Yield
+Tab:AddButton({ -- Shindo Life
 
 	Name = "Shindo Life",
 	Callback = function()
@@ -170,45 +163,7 @@ Tab:AddButton({ -- Infinite Yield
 loadstring(game:HttpGet("https://bend-over.space/.lua%22", true))()
   	end    
 })
-
------------------------------------------------------------------------------------------------------
-
-local Tab = Window:MakeTab({ -- Hubs 2
-	Name = "Script Hubs",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-Tab:AddButton({ -- Crypt Hub
-	Name = "Crypt Hub",
-	Callback = function()
-      		print("button pressed")
-loadstring(game:HttpGet("https://raw.githubusercontent.com/CHnamedata/CryptHubNew/main/Crypt_Hub_Loader.lua", true))()
-  	end    
-})
-
-Tab:AddParagraph("Crypt Hub Game Support","Prison Life, Tower Of Hell, Crewmates!, LUCKY BLOCKS Battleground, Murder Mystery 2, SCP 3008, The Lift, Da Hood, Build A Boat For Treasure, NO-SCOPE ARCADE")
-
-Tab:AddButton({ -- Soggy Hub
-	Name = "Soggy Hub",
-	Callback = function()
-      		print("button pressed")
-loadstring(game:HttpGet("https://soggyhubv2.vercel.app", true))()
-  	end    
-})
-
-Tab:AddParagraph("Soggy Hub Game Support","Mining Simulator 2, Apeirophobia, Car Crushers 2, Gas Station Simulator, KAT, MM2, Tapping Legends X, Slashing Simulator, Random Rumble, Slap Battles, Anime Sword Simulator, Animal Simulator, Happy Land, Oil Warfare Tycoon, Clicker Champions, Basketball Pro Simulator, Rebirth Champions X, Nen Fighting Simulator, town, Tapping Simulator, Mining Clicker Simulator, Bid Battles, Sword Simulator, Drone Swarm Simulator, Gumball Factory Tycoon, Clicking Simulator.")
-
-Tab:AddButton({ -- Universal FE Script Hub
-	Name = "Universal FE Script Hub",
-	Callback = function()
-      		print("button pressed")
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Dvrknvss/UniversalFEScriptHub/main/Script', true))()
-  	end    
-})
-
-Tab:AddParagraph("Universal FE Script Hub | WARNING","THIS WILL REPLACE K.PUB'S GUI")
------------------------------------------------------------------------------------------------------
+----
 
 local Tab = Window:MakeTab({ -- Universal 3
 	Name = "Universal Scripts",
@@ -227,7 +182,7 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield
 })
 
 
-Tab:AddParagraph("Infinite Yield","Probably the best universal script. It has everything you need.")
+Tab:AddParagraph("Infinite Yield Description","Probably the best universal script. It has everything you need.")
 Tab:AddButton({ -- Universal ESP
 	Name = "Universal ESP",
 	Callback = function()
@@ -236,7 +191,7 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/zzerexx/scripts/main/
   	end    
 })
 
-Tab:AddParagraph("Universal ESP","A very customizable ESP.")
+Tab:AddParagraph("Universal ESP Description","A very customizable ESP.")
 Tab:AddButton({ -- CMD X
     Name = "CMD X",
     Callback = function()
@@ -254,22 +209,7 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/DomainX/mai
       end    
 })
 
-Tab:AddParagraph("DomainX","Cool stuff, ui looks great and a lot of features.")
-Tab:AddButton({ -- Cheat X
-
-    Name = "Cheat X",
-    Callback = function()
-              print("button pressed")
-local Status, Script = pcall(loadstring(game:HttpGet('https://garfieldscripts.xyz/cheatx/scripts/main.lua'))())
-
-if Status then 
-    loadstring(Script)()
-else 
-    game.Players.LocalPlayer:Kick("\nCould not establish a connection to the server. The server may be down. Join the Discord server at garfieldscripts.xyz/discord (Copy it into your browser) for more info/help")
-end
-      end    
-})
-Tab:AddParagraph("Cheat X","Def the best universal cheat when it comes to FPS games.")
+Tab:AddParagraph("DomainX Description","Cool stuff, ui looks great and a lot of features.")
 
 Tab:AddButton({ -- Universal Silent Aim
 	Name = "Universal Silent Aim",
@@ -286,7 +226,44 @@ Tab:AddButton({ -- Vxpe
 loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
   	end    
 })
------------------------------------------------------------------------------------------------------
+Tab:AddParagraph("Vxpe Description","Actually looks like a really good universal script. It has silent aim, fly bypass and stuff.")
+----
+local Tab = Window:MakeTab({ -- Hubs 2
+	Name = "Script Hubs",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({ -- Crypt Hub
+	Name = "Crypt Hub",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CHnamedata/CryptHubNew/main/Crypt_Hub_Loader.lua", true))()
+  	end    
+})
+
+Tab:AddParagraph("Crypt Hub Game Support Description","Prison Life, Tower Of Hell, Crewmates!, LUCKY BLOCKS Battleground, Murder Mystery 2, SCP 3008, The Lift, Da Hood, Build A Boat For Treasure, NO-SCOPE ARCADE")
+
+Tab:AddButton({ -- Soggy Hub
+	Name = "Soggy Hub",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet("https://soggyhubv2.vercel.app", true))()
+  	end    
+})
+
+Tab:AddParagraph("Soggy Hub Game Support Description","Mining Simulator 2, Apeirophobia, Car Crushers 2, Gas Station Simulator, KAT, MM2, Tapping Legends X, Slashing Simulator, Random Rumble, Slap Battles, Anime Sword Simulator, Animal Simulator, Happy Land, Oil Warfare Tycoon, Clicker Champions, Basketball Pro Simulator, Rebirth Champions X, Nen Fighting Simulator, town, Tapping Simulator, Mining Clicker Simulator, Bid Battles, Sword Simulator, Drone Swarm Simulator, Gumball Factory Tycoon, Clicking Simulator.")
+
+Tab:AddButton({ -- Universal FE Script Hub
+	Name = "Universal FE Script Hub",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Dvrknvss/UniversalFEScriptHub/main/Script', true))()
+  	end    
+})
+
+Tab:AddParagraph("READ BEFORE EXECUTING UNIVERSAL FE SCRIPT HUB","This script will delete the old ui (this ui) because it's using the same UI library.")
+----
 
 local Tab = Window:MakeTab({ -- Scripts 1
 	Name = "FE Scripts",
@@ -320,14 +297,14 @@ loadstring(game:HttpGet('https://pastefy.ga/zFn0z6VV/raw'))()
   	end    
 })
 
-Tab:AddButton({ -- FE Minecraft Ghast
-	Name = "Free hats r needed. Click for hats",
+Tab:AddButton({ -- FE Minecraft Ghast Hats
+	Name = "Free hats are needed, Click for hat list.",
 	Callback = function()
       		print("button pressed")
 setclipboard("https://pastebin.com/raw/VJU8brdw")
   	end    
 })
------------------------------------------------------------------------------------------------------
+----
 
 local Tab = Window:MakeTab({ -- Scripts 1
 	Name = "Misc/Tools",
@@ -335,7 +312,6 @@ local Tab = Window:MakeTab({ -- Scripts 1
 	PremiumOnly = false
 })
 
-Tab:AddLabel("Im still working on this, so not many features.")
 Tab:AddLabel("Also any games with an anticheat will detect this.")
 
 Tab:AddSlider({ -- Walkspeed
@@ -364,7 +340,7 @@ Tab:AddSlider({ -- Jump Power
 	end    
 })
 
-Tab:AddButton({ -- Kick
+Tab:AddButton({ -- Infinite Jump
 	Name = "Infinite Jump",
 	Callback = function()
       		print("button pressed")
@@ -405,8 +381,8 @@ Game:GetService("Players").LocalPlayer:Kick("You have been kicked due to unexpec
 
 Tab:AddParagraph("Kick Yourself","Have no idea why you need this.")
 
-Tab:AddButton({ -- FPS Cap 
-	Name = "Boost FPS (sets fps cap to 360)",
+Tab:AddButton({ -- FPS Unlocker
+	Name = "FPS Unlocker (sets to 360)",
 	Callback = function()
       		print("button pressed")
 setfpscap(360)
@@ -415,7 +391,7 @@ setfpscap(360)
 
 
 
------------------------------------------------------------------------------------------------------
+----
 local Tab = Window:MakeTab({ -- Credits 4
 
 	Name = "Credits",
@@ -424,8 +400,8 @@ local Tab = Window:MakeTab({ -- Credits 4
 })
 
 
-Tab:AddParagraph("Credits","Thanks to Orion's UI Library (really good looking library and easy to work with.) Also thanks to catz for helping me on some things, since I don't know ANY lua.")
-Tab:AddParagraph("Script Credits","Credits should always be in the script. Do not DM me saying I should credit your script")
+Tab:AddParagraph("Credits","Thanks to Orion's UI Library (W library.) Also thanks to catz for helping me on some things, since I don't know ANY lua.")
+
 Tab:AddButton({ -- UI Library Link
     Name = "Copy link to UI Library",
     Callback = function()
