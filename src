@@ -354,7 +354,8 @@ local Tab = Window:MakeTab({ -- Scripts 1
 	PremiumOnly = false
 })
 
-Tab:AddLabel("Also any games with an anticheat will detect this.")
+
+Tab:AddLabel("Player")
 
 Tab:AddSlider({ -- Walkspeed
 	Name = "Walkspeed",
@@ -390,6 +391,18 @@ loadstring(game:HttpGet("https://pastebin.com/raw/vbNMmEJC", true))()
   	end    
 })
 
+Tab:AddLabel("Remote Spy")
+
+Tab:AddButton({ -- Remote Spy
+	Name = "Remote Spy",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/exxtremestuffs/SimpleSpySource/master/SimpleSpy.lua", true))()
+  	end    
+})
+
+Tab:AddLabel("Others")
+
 Tab:AddButton({ -- CTRL TP
     Name = "Ctrl TP",
     Callback = function()
@@ -413,16 +426,6 @@ Mouse.Button1Down:connect(
 
 Tab:AddParagraph("Ctrl TP","Hold CTRL and click wherever to tp to your cursor.")
 
-Tab:AddButton({ -- Kick
-	Name = "Kick Yourself",
-	Callback = function()
-      		print("button pressed")
-Game:GetService("Players").LocalPlayer:Kick("You have been kicked due to unexpected client behavior.")
-  	end    
-})
-
-Tab:AddParagraph("Kick Yourself","Have no idea why you need this.")
-
 Tab:AddButton({ -- FPS Unlocker
 	Name = "FPS Unlocker (sets to 360)",
 	Callback = function()
@@ -440,6 +443,13 @@ loadstring(game:HttpGet("https://pastebin.com/raw/cQv85Zhx", true))()
 })
 
 Tab:AddLabel("Toggle On/Off is X")
+Tab:AddButton({ -- Kick
+	Name = "Kick Yourself",
+	Callback = function()
+      		print("button pressed")
+Game:GetService("Players").LocalPlayer:Kick("You have been kicked due to unexpected client behavior.")
+  	end    
+})
 ----
 local Tab = Window:MakeTab({ -- Credits 4
 
