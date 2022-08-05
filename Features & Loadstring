@@ -1,60 +1,63 @@
-Our script hub supports: (This features list will always update if I add a game.)
+This is a list of the features my script hub has. (This list always updates when I update src.)
 
-Anomic
-A Universal Time
-Bedwars 
-Break In
-Booga Booga Classic
-Combat Warriors
-Da Hood
-Freeze Tag Extreme
-Kat (key and no key)
-Lifting Simulator
-Mining Simulator 2
-Muscle Legends
-Skywars
-Stand Upright Rebooted
-Specter 2
-Shindo Life
+[ ⭐ ] Games [ ⭐ ]
 
-We also have a universal tab.
+[ + ] Anomic [ + ]
+[ + ] A Universal Time [ + ]
+[ + ] Bedwars [ + ]
+[ + ] Break In [ + ]
+[ + ] Booga Booga Classic [ + ]
+[ + ] Combat Warriors [ + ]
+[ + ] Da Hood [ + ]
+[ + ] Freeze Tag Extreme [ + ]
+[ + ] Kat (key and no key) [ + ]
+[ + ] Lifting Simulator [ + ]
+[ + ] Mining Simulator 2 [ + ]
+[ + ] Muscle Legends [ + ]
+[ + ] Skywars [ + ]
+[ + ] Stand Upright Rebooted [ + ]
+[ + ] Specter 2 [ + ]
+[ + ] Shindo Life [ + ]
 
-Infinite Yield
-Domain X
-CMD X
-Universal Silent Aim
-Vxpe
+[ ⭐ ] Universal Scripts [ ⭐ ]
 
-And script hubs.
+[ + ] Infinite Yield [ + ]
+[ + ] Domain X [ + ]
+[ + ] CMD X [ + ]
+[ + ] Universal Silent Aim
+[ + ] Vxpe [ + ]
 
-Crypt Hub
-Soggy Hub
-Universal FE Script Hub
+[ ⭐ ] Script Hubs [ ⭐ ]
 
-Aaand a FE Tab.
+[ + ] Crypt Hub [ + ]
+[ + ] Soggy Hub [ + ]
+[ + ] Universal FE Script Hub [ + ]
 
-FE Helicopter 
-FE Minecraft Ghast (that can fling)
-FE Ragdoll
+[ ⭐ ] FE Scripts [ ⭐ ]
 
-We also have a tools tab.
+[ + ] FE Helicopter [ + ]
+[ + ] FE Minecraft Ghast (that can fling) [ + ]
+[ + ] FE Ragdoll [ + ]
 
-Player
+[ ⭐ ] Misc/Tools [ ⭐ ]
 
-Walkspeed & Jumppower Slider
-Infinite Jump
+ [][ + ][] Player
 
-Remote Spy
+[ + ] Walkspeed & Jumppower Slider
+[ + ] Infinite Jump
 
-Others
+ [][ + ][] Others
 
-Ctrl TP
-Kick Yourself
-FPS Unlocker
-Autoclicker
+[ + ] Ctrl TP [ + ]
+[ + ] FPS Unlocker [ + ]
+[ + ] Autoclicker [ + ]
+[ + ] Remote Spy [ + ]
+[ + ] Kick Yourself [ + ]
 
-Our hub is also open source.
 
-So what are you waiting for? Try it out!
+
+Our hub is also open source, so what are you waiting for? Try it out!
+
+[ ⭐ Script ⭐ ]
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Streekaiz/kpubsrc/main/src", true))()
