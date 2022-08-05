@@ -243,6 +243,15 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4Fo
   	end    
 })
 Tab:AddParagraph("Vxpe Description","Actually looks like a really good universal script. It has silent aim, fly bypass and stuff.")
+
+Tab:AddButton({ -- Vxpe
+	Name = "Vxpe",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Eazvy/public-scripts/main/Universal_Animations_Emotes.lua"))()
+  	end    
+})
+Tab:AddParagraph("Universal Animation Script Hub Description","A lot of anims, W script. Same hub in script hub tab.")
 ----
 local Tab = Window:MakeTab({ -- Hubs 2
 	Name = "Script Hubs",
