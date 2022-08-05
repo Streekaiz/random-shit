@@ -99,6 +99,15 @@ loadstring(game:HttpGet("https://www.klgrth.io/paste/urpoc/raw", true))()
   	end    
 })
 
+Tab:AddButton({ -- Da Hood
+	Name = "Best Free DH Script (SynX Only)",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/JsfuayASbsfuWGakCmhzVwaKJsfuayASbsfuWGa/EternalJNshAIw-mpaAkw-VkbgA/main/eternal.lua', true)))()
+  	end    
+})
+
+
 Tab:AddButton({ -- Freeze Tag Extreme
     Name = "Freeze Tag Extreme",
     Callback = function()
