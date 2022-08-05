@@ -389,8 +389,15 @@ setfpscap(360)
   	end    
 })
 
+Tab:AddButton({ -- Autoclicker
+	Name = "Autoclicker",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet("https://pastebin.com/raw/k0VYfPTn", true))()
+  	end    
+})
 
-
+Tab:AddLabel("Toggle On/Off is X")
 ----
 local Tab = Window:MakeTab({ -- Credits 4
 
