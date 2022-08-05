@@ -1,0 +1,51 @@
+Our script hub supports: (if you just want the script, go to the bottom.)
+
+Anomic
+A Universal Time
+Bedwars 
+Break In
+Booga Booga Classic
+Combat Warriors
+Da Hood
+Freeze Tag Extreme
+Kat (key and no key)
+Mining Simulator 2
+Skywars
+Stand Upright Rebooted
+Specter 2
+Shindo Life
+
+We also have a universal tab.
+
+Infinite Yield
+Domain X
+CMD X
+Universal Silent Aim
+Vxpe
+
+And script hubs.
+
+Crypt Hub
+Soggy Hub
+Universal FE Script Hub
+
+Aaand a FE Tab.
+
+FE Helicopter 
+FE Minecraft Ghast (that can fling)
+FE Ragdoll
+
+We also have a tools tab.
+
+Walkspeed & Jumppower Slider
+Infinite Jump
+Ctrl TP
+Kick Yourself
+FPS Unlocker
+Autoclicker
+
+Our hub is also open source.
+
+So what are you waiting for? Try it out!
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Streekaiz/kpubsrc/main/src", true))()
