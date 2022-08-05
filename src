@@ -123,11 +123,27 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/
   	end    
 })
 
+Tab:AddButton({ -- Lifting Simulator
+	Name = "Lifting Simulator",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Emistary/pub/main/freeScript', true))()
+  	end    
+})
+
 Tab:AddButton({ -- Mining Simulator 2
 	Name = "Mining Simulator 2",
 	Callback = function()
       		print("button pressed")
 loadstring(game:HttpGet('https://raw.githubusercontent.com/RunDTM/miningsim2/main/rewrite.lua', true))()
+  	end    
+})
+
+Tab:AddButton({ -- Muscle Legends
+	Name = "Muscle Legends",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Emistary/pub/main/freeScript', true))()
   	end    
 })
 
