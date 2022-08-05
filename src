@@ -33,7 +33,6 @@ setclipboard("https://discord.gg/tPGVDVTtGh")
 })
 
 Tab:AddParagraph("WARNING","Some of these scripts might be outdated. If the game you want to exploit on has updated while you're reading this, I suggest trying the script on a alt.")
-Tab:AddParagraph("Credits","All credits for scripts should be in the scripts. If you need to contact me about something, please DM streekaiz#1132")
 
 -----------------------------------------------------------------------------------------------------
 
@@ -417,8 +416,8 @@ local Tab = Window:MakeTab({ -- Credits 4
 })
 
 
-Tab:AddParagraph("Credits","Thanks to Orion's UI Library (i spent a while trying to find one that looked good and actually worked. Also thanks to catz for helping me on some things, since I don't know ANY lua.")
-
+Tab:AddParagraph("Credits","Thanks to Orion's UI Library (really good looking library and easy to work with.) Also thanks to catz for helping me on some things, since I don't know ANY lua.")
+Tab:AddParagraph("Script Credits","Credits should always be in the script. Do not DM me saying I should credit your script")
 Tab:AddButton({ -- UI Library Link
     Name = "Copy link to UI Library",
     Callback = function()
