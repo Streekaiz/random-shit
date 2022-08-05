@@ -393,7 +393,7 @@ Tab:AddButton({ -- Autoclicker
 	Name = "Autoclicker",
 	Callback = function()
       		print("button pressed")
-loadstring(game:HttpGet("https://pastebin.com/raw/k0VYfPTn", true))()
+loadstring(game:HttpGet("https://pastebin.com/raw/cQv85Zhx", true))()
   	end    
 })
 
