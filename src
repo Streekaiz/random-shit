@@ -12,7 +12,7 @@ OrionLib:MakeNotification({
 OrionLib:MakeNotification({ 
 
 	Name = "Changelogs",
-	Content = "Script has been rewritten, since it was a little hard for me to read the script.",
+	Content = "Changed discord link (old one was expired somehow?)",
 	Image = "rbxassetid://4483345998",
 	Time = 15
 })
@@ -28,7 +28,7 @@ Tab:AddButton({
 	Name = "Copy Discord Link",
 	Callback = function()
       		print("button pressed")
-setclipboard("https://discord.gg/tPGVDVTtGh")
+setclipboard("https://discord.gg/ch3XWYFXDV")
   	end    
 })
 
