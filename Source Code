@@ -177,6 +177,24 @@ loadstring(game:HttpGet("https://www.klgrth.io/paste/urpoc/raw", true))()
   	end    
 })
 
+Tab:AddButton({ -- Da Hood
+	Name = "Da Hood Autofarm",
+	Callback = function()
+      		print("button pressed")
+
+OrionLib:MakeNotification({ 
+
+	Name = "Notifcation",
+	Content = "Succesfully executed, enjoy!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/JsfuayASbsfuWGakCmhzVwaKJsfuayASbsfuWGa/AntiAim/main/ANTI%20LOCK.lua')))()
+
+  	end    
+})
+
 Tab:AddButton({ -- Freeze Tag Extreme
     Name = "Freeze Tag Extreme",
     Callback = function()
