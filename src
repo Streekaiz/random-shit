@@ -41,9 +41,6 @@ setclipboard("https://discord.gg/tPGVDVTtGh")
   	end    
 })
 
-
-OrionLib:MakeNotification({ 
-
 	Name = "WARNING",
 	Content = "Some of these scripts might be outdated. If the game you want to exploit on has updated while you're reading this, I suggest trying the script on a alt.",
 	Image = "rbxassetid://4483345998",
