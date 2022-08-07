@@ -1,20 +1,20 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))() -- Library
-local Window = OrionLib:MakeWindow({Name = "K.pub | Script Hub", HidePremium = false, SaveConfig = false, ConfigFolder = "OrionTest"}) -- Window
+local Window = OrionLib:MakeWindow({Name = "k.pub | the best free script hub", HidePremium = false, SaveConfig = false, ConfigFolder = "whyenablethis", IntroEnabled = true, IntroText = "k.pub | the best free script hub "})
 ----
 OrionLib:MakeNotification({ 
 
 	Name = "Join k.pub!",
 	Content = "In our server, we provide a lot more scripts. You can also be notified of script changes there.",
 	Image = "rbxassetid://4483345998",
-	Time = 999999
+	Time = 10
 })
 ---- Changelogs
 OrionLib:MakeNotification({ 
 
 	Name = "Changelogs",
-	Content = "Changed discord link (old one was expired somehow?)",
+	Content = "Script has a new loading intro.",
 	Image = "rbxassetid://4483345998",
-	Time = 15
+	Time = 10
 })
 ---- Home 
 local Tab = Window:MakeTab({ -- Info 0
@@ -28,11 +28,29 @@ Tab:AddButton({
 	Name = "Copy Discord Link",
 	Callback = function()
       		print("button pressed")
-setclipboard("https://discord.gg/ch3XWYFXDV")
+
+OrionLib:MakeNotification({ 
+
+	Name = "Notifcation",
+	Content = "The discord link is now copied to your clipboard. Thanks for joining!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+setclipboard("https://discord.gg/tPGVDVTtGh")
   	end    
 })
 
-Tab:AddParagraph("WARNING","Some of these scripts might be outdated. If the game you want to exploit on has updated while you're reading this, I suggest trying the script on a alt.")
+
+OrionLib:MakeNotification({ 
+
+	Name = "WARNING",
+	Content = "Some of these scripts might be outdated. If the game you want to exploit on has updated while you're reading this, I suggest trying the script on a alt.",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+Tab:AddParagraph("","")
 ---- Scripts
 
 local Tab = Window:MakeTab({ -- Scripts 1
@@ -47,6 +65,15 @@ Tab:AddButton({ -- Anomic
 	Name = "Anomic",
 	Callback = function()
       		print("button pressed")
+
+OrionLib:MakeNotification({ 
+
+	Name = "Notifcation",
+	Content = "Succesfully executed, enjoy!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
 loadstring(game:HttpGet('https://pastebin.com/X4pEBbfH', true))()
   	end    
 })
@@ -55,6 +82,15 @@ Tab:AddButton({ -- A Universal Time
     Name = "A Universal Time",
     Callback = function()
               print("button pressed")
+
+OrionLib:MakeNotification({ 
+
+	Name = "Notifcation",
+	Content = "Succesfully executed, enjoy!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ewyzu/Spotify-Scripts/main/A-Universal-Time", true))()
       end    
 })
@@ -63,6 +99,15 @@ Tab:AddButton({ -- Bedwars
     Name = "Bedwars",
     Callback = function()
               print("button pressed")
+
+OrionLib:MakeNotification({ 
+
+	Name = "Notifcation",
+	Content = "Succesfully executed, enjoy!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
       end    
 })
@@ -71,6 +116,15 @@ Tab:AddButton({ -- Break In
 	Name = "Break In",
 	Callback = function()
       		print("button pressed")
+
+OrionLib:MakeNotification({ 
+
+	Name = "Notifcation",
+	Content = "Succesfully executed, enjoy!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
 loadstring(game:HttpGet('https://raw.githubusercontent.com/VinegarBigBoy/Darkie-G/main/Break%20In%20Updated', true))()
   	end    
 })
@@ -79,6 +133,15 @@ Tab:AddButton({ -- Booga Booga Classic
     Name = "Booga Booga Classic",
     Callback = function()
               print("button pressed")
+
+OrionLib:MakeNotification({ 
+
+	Name = "Notifcation",
+	Content = "Succesfully executed, enjoy!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/WarriorCrystal/WarriorHub/main/Load.lua", true))()
       end    
 })
@@ -87,6 +150,15 @@ Tab:AddButton({ -- Combat Warriors
     Name = "Combat Warriors",
     Callback = function()
               print("button pressed")
+
+OrionLib:MakeNotification({ 
+
+	Name = "Notifcation",
+	Content = "Succesfully executed, enjoy!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
 loadstring(game:HttpGet("https://projecthook.xyz/scripts/new-free.lua", true))()
       end    
 })
@@ -95,6 +167,15 @@ Tab:AddButton({ -- Da Hood
 	Name = "Da Hood Autofarm",
 	Callback = function()
       		print("button pressed")
+
+OrionLib:MakeNotification({ 
+
+	Name = "Notifcation",
+	Content = "Succesfully executed, enjoy!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
 loadstring(game:HttpGet("https://www.klgrth.io/paste/urpoc/raw", true))()
   	end    
 })
@@ -103,6 +184,15 @@ Tab:AddButton({ -- Freeze Tag Extreme
     Name = "Freeze Tag Extreme",
     Callback = function()
               print("button pressed")
+
+OrionLib:MakeNotification({ 
+
+	Name = "Notifcation",
+	Content = "Succesfully executed, enjoy!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/HeiKe2022/Freeze-Tag-v2.5/main/F%26Tv2.5.lua", true))()
       end    
 })
@@ -111,6 +201,15 @@ Tab:AddButton({ -- Kat (Key System)
 	Name = "Kat (Key System)",
 	Callback = function()
       		print("button pressed")
+
+OrionLib:MakeNotification({ 
+
+	Name = "Notifcation",
+	Content = "Succesfully executed, enjoy!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
 loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Knife-Ability-Test/main/Gui', true))()
   	end    
 })
@@ -119,6 +218,15 @@ Tab:AddButton({ -- Kat No Key
 	Name = "Kat No Key System",
 	Callback = function()
       		print("button pressed")
+
+OrionLib:MakeNotification({ 
+
+	Name = "Notifcation",
+	Content = "Succesfully executed, enjoy!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
 loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub', true))()
   	end    
 })
@@ -127,6 +235,15 @@ Tab:AddButton({ -- Lifting Simulator
 	Name = "Lifting Simulator",
 	Callback = function()
       		print("button pressed")
+
+OrionLib:MakeNotification({ 
+
+	Name = "Notifcation",
+	Content = "Succesfully executed, enjoy!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Emistary/pub/main/freeScript', true))()
   	end    
 })
@@ -135,6 +252,15 @@ Tab:AddButton({ -- Mining Simulator 2
 	Name = "Mining Simulator 2",
 	Callback = function()
       		print("button pressed")
+
+OrionLib:MakeNotification({ 
+
+	Name = "Notifcation",
+	Content = "Succesfully executed, enjoy!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
 loadstring(game:HttpGet('https://raw.githubusercontent.com/RunDTM/miningsim2/main/rewrite.lua', true))()
   	end    
 })
@@ -143,6 +269,15 @@ Tab:AddButton({ -- Muscle Legends
 	Name = "Muscle Legends",
 	Callback = function()
       		print("button pressed")
+
+OrionLib:MakeNotification({ 
+
+	Name = "Notifcation",
+	Content = "Succesfully executed, enjoy!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Emistary/pub/main/freeScript', true))()
   	end    
 })
@@ -151,6 +286,15 @@ Tab:AddButton({ -- Skywars
 	Name = "Skywars", 
 	Callback = function()
       		print("button pressed")
+
+OrionLib:MakeNotification({ 
+
+	Name = "Notifcation",
+	Content = "Succesfully executed, enjoy!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Ilikebigfootballs/SKywars/main/README.md",true))()
   	end    
 })
@@ -159,6 +303,15 @@ Tab:AddButton({ -- Stand Upright Rebooted
 	Name = "Stand Upright Rebooted",
 	Callback = function()
       		print("button pressed")
+
+OrionLib:MakeNotification({ 
+
+	Name = "Notifcation",
+	Content = "Succesfully executed, enjoy!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
 loadstring(game:HttpGetAsync('https://pastebin.com/raw/vXD4mT1w', true))()
   	end    
 })
@@ -167,6 +320,15 @@ Tab:AddButton({
     Name = "Specter 2", -- Specter 2
     Callback = function()
               print("button pressed")
+
+OrionLib:MakeNotification({ 
+
+	Name = "Notifcation",
+	Content = "Succesfully executed, enjoy!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/Proxima-Hub/main/Main.lua", true))()
       end    
 })
@@ -176,6 +338,15 @@ Tab:AddButton({ -- Shindo Life
 	Name = "Shindo Life",
 	Callback = function()
       		print("button pressed")
+
+OrionLib:MakeNotification({ 
+
+	Name = "Notifcation",
+	Content = "Succesfully executed, enjoy!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
 loadstring(game:HttpGet("https://bend-over.space/.lua%22", true))()
   	end    
 })
@@ -193,6 +364,15 @@ Tab:AddButton({ -- Infinite Yield
 	Name = "Infinite Yield",
 	Callback = function()
       		print("button pressed")
+
+OrionLib:MakeNotification({ 
+
+	Name = "Notifcation",
+	Content = "Succesfully executed, enjoy!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
   	end    
 })
@@ -203,6 +383,15 @@ Tab:AddButton({ -- Universal ESP
 	Name = "Universal ESP",
 	Callback = function()
       		print("button pressed")
+
+OrionLib:MakeNotification({ 
+
+	Name = "Notifcation",
+	Content = "Succesfully executed, enjoy!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
 loadstring(game:HttpGet('https://raw.githubusercontent.com/zzerexx/scripts/main/UniversalEspUI.lua', true))()
   	end    
 })
@@ -212,6 +401,15 @@ Tab:AddButton({ -- CMD X
     Name = "CMD X",
     Callback = function()
               print("button pressed")
+
+OrionLib:MakeNotification({ 
+
+	Name = "Notifcation",
+	Content = "Succesfully executed, enjoy!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source",true))()
       end    
 })
@@ -221,6 +419,15 @@ Tab:AddButton({ -- DomainX
     Name = "Domain X",
     Callback = function()
               print("button pressed")
+
+OrionLib:MakeNotification({ 
+
+	Name = "Notifcation",
+	Content = "Succesfully executed, enjoy!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
 loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/DomainX/main/source', true))()
       end    
 })
@@ -231,6 +438,15 @@ Tab:AddButton({ -- Universal Silent Aim
 	Name = "Universal Silent Aim",
 	Callback = function()
       		print("button pressed")
+
+OrionLib:MakeNotification({ 
+
+	Name = "Notifcation",
+	Content = "Succesfully executed, enjoy!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Averiias/Universal-SilentAim/main/main.lua", true))()
   	end    
 })
@@ -239,6 +455,15 @@ Tab:AddButton({ -- Vxpe
 	Name = "Vxpe",
 	Callback = function()
       		print("button pressed")
+
+OrionLib:MakeNotification({ 
+
+	Name = "Notifcation",
+	Content = "Succesfully executed, enjoy!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
   	end    
 })
@@ -248,6 +473,15 @@ Tab:AddButton({ -- Universal Animation Script Hub
 	Name = "Universal Animation Script Hub",
 	Callback = function()
       		print("button pressed")
+
+OrionLib:MakeNotification({ 
+
+	Name = "Notifcation",
+	Content = "Succesfully executed, enjoy!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Eazvy/public-scripts/main/Universal_Animations_Emotes.lua"))()
   	end    
 })
@@ -263,6 +497,15 @@ Tab:AddButton({ -- Crypt Hub
 	Name = "Crypt Hub",
 	Callback = function()
       		print("button pressed")
+
+OrionLib:MakeNotification({ 
+
+	Name = "Notifcation",
+	Content = "Succesfully executed, enjoy!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/CHnamedata/CryptHubNew/main/Crypt_Hub_Loader.lua", true))()
   	end    
 })
@@ -273,6 +516,15 @@ Tab:AddButton({ -- Soggy Hub
 	Name = "Soggy Hub",
 	Callback = function()
       		print("button pressed")
+
+OrionLib:MakeNotification({ 
+
+	Name = "Notifcation",
+	Content = "Succesfully executed, enjoy!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
 loadstring(game:HttpGet("https://soggyhubv2.vercel.app", true))()
   	end    
 })
@@ -283,6 +535,15 @@ Tab:AddButton({ -- Universal FE Script Hub
 	Name = "Universal FE Script Hub",
 	Callback = function()
       		print("button pressed")
+
+OrionLib:MakeNotification({ 
+
+	Name = "Notifcation",
+	Content = "Succesfully executed, enjoy!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Dvrknvss/UniversalFEScriptHub/main/Script', true))()
   	end    
 })
@@ -293,6 +554,15 @@ Tab:AddButton({ -- Universal Animation Script Hub
 	Name = "Universal Animation Script Hub",
 	Callback = function()
       		print("button pressed")
+
+OrionLib:MakeNotification({ 
+
+	Name = "Notifcation",
+	Content = "Succesfully executed, enjoy!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Eazvy/public-scripts/main/Universal_Animations_Emotes.lua"))()
   	end    
 })
@@ -307,6 +577,15 @@ Tab:AddButton({ -- FE Ragdoll
 	Name = "FE Ragdoll (R6 Only.)",
 	Callback = function()
       		print("button pressed")
+
+OrionLib:MakeNotification({ 
+
+	Name = "Notifcation",
+	Content = "Succesfully executed, enjoy!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
 loadstring(game:HttpGet("https://pastebin.com/raw/dSJuH5kk", true))()
   	end    
 })
@@ -316,6 +595,15 @@ Tab:AddButton({ -- FE Helicopter
 	Name = "FE Helicopter (R6 Only.)",
 	Callback = function()
       		print("button pressed")
+
+OrionLib:MakeNotification({ 
+
+	Name = "Notifcation",
+	Content = "Succesfully executed, enjoy!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
 loadstring(game:HttpGet("https://pastebin.com/raw/d9J7fYKT", true))()
   	end    
 })
@@ -326,6 +614,15 @@ Tab:AddButton({ -- FE Minecraft Ghast
 	Name = "FE Minecraft Ghast Fling Script",
 	Callback = function()
       		print("button pressed")
+
+OrionLib:MakeNotification({ 
+
+	Name = "Notifcation",
+	Content = "Succesfully executed, enjoy!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
 loadstring(game:HttpGet('https://pastefy.ga/zFn0z6VV/raw'))()
   	end    
 })
@@ -345,7 +642,24 @@ local Tab = Window:MakeTab({ -- Scripts 1
 	PremiumOnly = false
 })
 
-Tab:AddLabel("Also any games with an anticheat will detect this.")
+
+
+
+Tab:AddButton({ -- Reminder
+	Name = "Click this before using any of the tools.",
+	Callback = function()
+      		print("button pressed")
+
+OrionLib:MakeNotification({ 
+
+	Name = "Reminder",
+	Content = "Any game that has a anticheat, WILL detect this. Only use for games that don't have an anticheat.",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+  	end    
+})
 
 Tab:AddSlider({ -- Walkspeed
 	Name = "Walkspeed",
