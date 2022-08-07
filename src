@@ -257,8 +257,7 @@ OrionLib:MakeNotification({
 	Image = "rbxassetid://4483345998",
 	Time = 5
 })
-
-loadstring(game:HttpGet('https://raw.githubusercontent.com/RunDTM/miningsim2/main/rewrite.lua', true))()
+loadstring(game:HttpGet'https://raw.githubusercontent.com/RunDTM/ZeeroxHub/main/Loader.lua', true)()
   	end    
 })
 
