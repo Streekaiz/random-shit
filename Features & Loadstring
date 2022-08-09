@@ -60,4 +60,4 @@ Our hub is also open source, so what are you waiting for? Try it out! (the scrip
 
 [ ⭐ Script ⭐ ]
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Streekaiz/kpubsrc/main/src", true))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Streekaiz/kpubsrc/main/Source%20Code', true))()
