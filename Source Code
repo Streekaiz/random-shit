@@ -12,7 +12,7 @@ OrionLib:MakeNotification({
 OrionLib:MakeNotification({ 
 
 	Name = "Changelogs",
-	Content = "Executor Support Info (below in home)",
+	Content = "Script has a new loading intro.",
 	Image = "rbxassetid://4483345998",
 	Time = 10
 })
@@ -41,14 +41,16 @@ setclipboard("https://discord.gg/tPGVDVTtGh")
   	end    
 })
 
+
+OrionLib:MakeNotification({ 
+
 	Name = "WARNING",
 	Content = "Some of these scripts might be outdated. If the game you want to exploit on has updated while you're reading this, I suggest trying the script on a alt.",
 	Image = "rbxassetid://4483345998",
 	Time = 5
 })
 
----- Scripts
-
+----
 local Tab = Window:MakeTab({ -- Scripts 1
 	Name = "Scripts",
 	Icon = "rbxassetid://4483345998",
@@ -210,6 +212,7 @@ OrionLib:MakeNotification({
 loadstring(game:HttpGet("https://raw.githubusercontent.com/HeiKe2022/Freeze-Tag-v2.5/main/F%26Tv2.5.lua", true))()
       end    
 })
+
 
 Tab:AddButton({ -- Kat (Key System)
 	Name = "Kat (Key System)",
@@ -580,12 +583,12 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Eazvy/public-scripts/
   	end    
 })
 ----
-
 local Tab = Window:MakeTab({ -- Scripts 1
 	Name = "FE Scripts",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
-	
+})
+
 Tab:AddButton({ -- FE Ragdoll
 	Name = "FE Ragdoll (R6 Only.)",
 	Callback = function()
