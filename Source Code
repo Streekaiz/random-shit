@@ -587,6 +587,22 @@ local Tab = Window:MakeTab({ -- Scripts 1
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
+Tab:AddButton({ -- Simplity
+	Name = "Simplity (bunch of FE stuff)",
+	Callback = function()
+      		print("button pressed")
+
+OrionLib:MakeNotification({ 
+
+	Name = "Notifcation",
+	Content = "Succesfully executed, enjoy!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/HeyGyt/simplity1/main/main", true))()    
+})
+
 Tab:AddButton({ -- FE Ragdoll
 	Name = "FE Ragdoll (R6 Only.)",
 	Callback = function()
