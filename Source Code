@@ -12,7 +12,7 @@ OrionLib:MakeNotification({
 OrionLib:MakeNotification({ 
 
 	Name = "Changelogs",
-	Content = "Script has a new loading intro.",
+	Content = "Executor Support Info (below in home)",
 	Image = "rbxassetid://4483345998",
 	Time = 10
 })
@@ -47,7 +47,7 @@ setclipboard("https://discord.gg/tPGVDVTtGh")
 	Time = 5
 })
 
-Tab:AddParagraph("","")
+Tab:AddParagraph("Executor Support","Scripts are only for KRNL, Scriptware, and Synapse. Do not report a script not working if you're not using one of those executors.")
 ---- Scripts
 
 local Tab = Window:MakeTab({ -- Scripts 1
