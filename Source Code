@@ -178,7 +178,7 @@ loadstring(game:HttpGet("https://www.klgrth.io/paste/urpoc/raw", true))()
 })
 
 Tab:AddButton({ -- Da Hood
-	Name = "Da Hood Autofarm",
+	Name = "Da Hood | eternal.lua",
 	Callback = function()
       		print("button pressed")
 
