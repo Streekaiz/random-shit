@@ -212,6 +212,23 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/HeiKe2022/Freeze-Tag-
       end    
 })
 
+Tab:AddButton({ -- Jailbreak
+	Name = "Jailbreak",
+	Callback = function()
+      		print("button pressed")
+
+OrionLib:MakeNotification({ 
+
+	Name = "WARNING",
+	Content = "Do not use high speed or whatever, and have good fps. ",
+	Image = "rbxassetid://4483345998",
+	Time = 15
+})
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/wawsdasdacx/ohascriptnrrewading/main/jbsaxcriptidk1", true))()
+
+})
+
 Tab:AddButton({ -- Kat (Key System)
 	Name = "Kat (Key System)",
 	Callback = function()
