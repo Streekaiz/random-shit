@@ -61,6 +61,8 @@ Tab:AddButton({ -- Anomic
                 Time = 5
             })
             
+	    setclipboard("loadstring(game:HttpGet('https://pastebin.com/X4pEBbfH', true))()")
+	    
             loadstring(game:HttpGet('https://pastebin.com/X4pEBbfH', true))()
                   end    
 
@@ -77,6 +79,8 @@ Tab:AddButton({ -- Anime Fighters Simulators
                 Image = "rbxassetid://4483345998",
                 Time = 5
             })
+	    
+	    setclipboard("loadstring(game:HttpGet('https://raw.githubusercontent.com/Gohan9k/ANIMEFIGHTERS/main/GOHANSSJ3', true))()")
             
             loadstring(game:HttpGet("https://raw.githubusercontent.com/Gohan9k/ANIMEFIGHTERS/main/GOHANSSJ3", true))()
                   end    
@@ -94,6 +98,8 @@ Tab:AddButton({ -- A Universal Time
                 Image = "rbxassetid://4483345998",
                 Time = 5
             })
+	    
+	    setclipboard("loadstring(game:HttpGet('https://raw.githubusercontent.com/ewyzu/Spotify-Scripts/main/A-Universal-Time', true))()")
             
             loadstring(game:HttpGet("https://raw.githubusercontent.com/ewyzu/Spotify-Scripts/main/A-Universal-Time", true))()
                   end   
@@ -116,6 +122,8 @@ Tab:AddButton({ -- Bedwars
                 Time = 5
             })
             
+	    setclipboard("loadstring(game:HttpGet('https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua', true))()")
+	    
             loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
                   end  
   
@@ -133,6 +141,8 @@ Tab:AddButton({ -- Bee Swarm Simulator
                 Image = "rbxassetid://4483345998",
                 Time = 5
             })
+	    
+	    setclipboard("loadstring(game:HttpGet('https://raw.githubusercontent.com/Boxking776/kocmoc/main/kocmoc-remastered.lua', true))() ")
             
             loadstring(game:HttpGet("https://raw.githubusercontent.com/Boxking776/kocmoc/main/kocmoc-remastered.lua", true))() 
                   end  
@@ -151,6 +161,8 @@ Tab:AddButton({ -- Break In
                 Time = 5
             })
             
+	    setclipboard("loadstring(game:HttpGet('https://raw.githubusercontent.com/VinegarBigBoy/Darkie-G/main/Break%20In%20Updated', true))()")
+	    
             loadstring(game:HttpGet('https://raw.githubusercontent.com/VinegarBigBoy/Darkie-G/main/Break%20In%20Updated', true))()
                   end    
 
@@ -167,6 +179,8 @@ Tab:AddButton({ -- Booga Booga Classic
                 Image = "rbxassetid://4483345998",
                 Time = 5
             })
+	    
+	    setclipboard("loadstring(game:HttpGet('https://raw.githubusercontent.com/WarriorCrystal/WarriorHub/main/Load.lua', true))()")
             
             loadstring(game:HttpGet("https://raw.githubusercontent.com/WarriorCrystal/WarriorHub/main/Load.lua", true))()
                   end    
@@ -190,6 +204,8 @@ Tab:AddButton({ -- Combat Warriors
                 Time = 5
             })
             
+	    setclipboard("https://projecthook.xyz/discord")
+	    
             loadstring(game:HttpGet("https://projecthook.xyz/scripts/new-free.lua", true))()
                   end  
 
@@ -211,13 +227,15 @@ Tab:AddButton({ -- Da Hood
                 Time = 5
             })
             
+	    setclipboard("loadstring(game:HttpGet('https://www.klgrth.io/paste/urpoc/raw', true))()")
+	    
             loadstring(game:HttpGet("https://www.klgrth.io/paste/urpoc/raw", true))()
                   end    
 
 })
 
 Tab:AddButton({ -- Da Hood
-	Name = "Da Hood | eternal.lua",
+	Name = "Da Hood | Anti-Lock",
 	Callback = function()
       		print("button pressed")
               OrionLib:MakeNotification({ 
@@ -228,6 +246,8 @@ Tab:AddButton({ -- Da Hood
                 Time = 5
             })
             
+	    setclipboard("loadstring(game:HttpGet(('https://raw.githubusercontent.com/JsfuayASbsfuWGakCmhzVwaKJsfuayASbsfuWGa/AntiAim/main/ANTI%20LOCK.lua')))()")
+	    
             loadstring(game:HttpGet(('https://raw.githubusercontent.com/JsfuayASbsfuWGakCmhzVwaKJsfuayASbsfuWGa/AntiAim/main/ANTI%20LOCK.lua')))()
                   end    
 
@@ -248,6 +268,8 @@ Tab:AddButton({ -- Freeze Tag Extreme
                 Image = "rbxassetid://4483345998",
                 Time = 5
             })
+	    
+	    setclipboard("loadstring(game:HttpGet('https://raw.githubusercontent.com/HeiKe2022/Freeze-Tag-v2.5/main/F%26Tv2.5.lua', true))()")
             
             loadstring(game:HttpGet("https://raw.githubusercontent.com/HeiKe2022/Freeze-Tag-v2.5/main/F%26Tv2.5.lua", true))()
                   end    
@@ -269,6 +291,8 @@ Tab:AddButton({ -- Kat (Key System)
                 Image = "rbxassetid://4483345998",
                 Time = 5
             })
+	    
+	    setclipboard("loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Knife-Ability-Test/main/Gui', true))()")
             
             loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Knife-Ability-Test/main/Gui', true))()
                   end    
@@ -287,6 +311,8 @@ Tab:AddButton({ -- Kat No Key
                 Time = 5
             })
             
+	    setclipboard("loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub', true))()")
+	    
             loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub', true))()
                   end  
             
@@ -308,6 +334,8 @@ Tab:AddButton({ -- Lifting Simulator
                 Time = 5
             })
             
+	    setclipboard("loadstring(game:HttpGet('https://raw.githubusercontent.com/Emistary/pub/main/freeScript', true))()")
+	    
             loadstring(game:HttpGet('https://raw.githubusercontent.com/Emistary/pub/main/freeScript', true))()
                   end    
 
@@ -328,6 +356,9 @@ Tab:AddButton({ -- Mining Simulator 2
                 Image = "rbxassetid://4483345998",
                 Time = 5
             })
+	    
+	    setclipboard("loadstring(game:HttpGet'https://raw.githubusercontent.com/RunDTM/ZeeroxHub/main/Loader.lua', true)()c")
+	    
             loadstring(game:HttpGet'https://raw.githubusercontent.com/RunDTM/ZeeroxHub/main/Loader.lua', true)()
                   end    
 
@@ -344,6 +375,8 @@ Tab:AddButton({ -- Muscle Legends
                 Image = "rbxassetid://4483345998",
                 Time = 5
             })
+	    
+	    setclipboard("loadstring(game:HttpGet('https://raw.githubusercontent.com/Emistary/pub/main/freeScript', true))()")
             
             loadstring(game:HttpGet('https://raw.githubusercontent.com/Emistary/pub/main/freeScript', true))()
                   end 
@@ -366,7 +399,9 @@ Tab:AddButton({ -- Skywars
                 Time = 5
             })
             
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/Ilikebigfootballs/SKywars/main/README.md",true))()
+	    setclipboard("loadstring(game:HttpGet('https://raw.githubusercontent.com/Ilikebigfootballs/SKywars/main/README.md',true))()")
+	    
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Ilikebigfootballs/SKywars/main/README.md",true))() -- why is it in a readme?
                   end  
   
 })
@@ -383,6 +418,8 @@ Tab:AddButton({ -- Stand Upright Rebooted
                 Time = 5
             })
             
+	    setclipboard("loadstring(game:HttpGetAsync('https://pastebin.com/raw/vXD4mT1w', true))()")
+	    
             loadstring(game:HttpGetAsync('https://pastebin.com/raw/vXD4mT1w', true))()
                   end   
 
@@ -399,6 +436,8 @@ Tab:AddButton({
                 Image = "rbxassetid://4483345998",
                 Time = 5
             })
+	    
+	    setclipboard("loadstring(game:HttpGet('https://raw.githubusercontent.com/TrixAde/Proxima-Hub/main/Main.lua', true))()")
 
             loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/Proxima-Hub/main/Main.lua", true))()
                   end  
@@ -417,6 +456,8 @@ Tab:AddButton({ -- Shindo Life
                 Image = "rbxassetid://4483345998",
                 Time = 5
             })
+	    
+	    setclipboard("loadstring(game:HttpGet('https://bend-over.space/.lua%22', true))()")
             
             loadstring(game:HttpGet("https://bend-over.space/.lua%22", true))()
                   end  
@@ -435,8 +476,10 @@ Tab:AddButton({ -- SCP 3008
                 Image = "rbxassetid://4483345998",
                 Time = 5
             })
+	    
+	    setclipboard("loadstring(game:HttpGet'https://raw.githubusercontent.com/RunDTM/ZeeroxHub/main/Loader.lua')()")
             
-            loadstring(game:HttpGet'https://raw.githubusercontent.com/RunDTM/ZeeroxHub/main/Loader.lua')()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/RunDTM/ZeeroxHub/main/Loader.lua'))()
                   end  
 
 })
@@ -456,15 +499,19 @@ Tab:AddButton({ -- Simplity
 	Name = "Simplity (Kind of like a FE Script Hub.)",
 	Callback = function()
       		print("button pressed")
-              OrionLib:MakeNotification({ 
-
+		
+OrionLib:MakeNotification({ 
 Name = "Notifcation",
 Content = "Succesfully executed, enjoy!",
 Image = "rbxassetid://4483345998",
 Time = 5
 })
 
+setclipboard("loadstring(game:HttpGet('https://raw.githubusercontent.com/HeyGyt/simplity1/main/main', true))()")
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/HeyGyt/simplity1/main/main", true))()
+
+
 
   	end    
 })
