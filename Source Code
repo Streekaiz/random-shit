@@ -1,6 +1,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "k.pub - the best free script hub.", HidePremium = false, SaveConfig = false, ConfigFolder = "Whyusethis?", IntroEnabled = true, IntroText = "kpub - the best free script hub."})
+local Window = OrionLib:MakeWindow({Name = "k.pub - the best free script hub.", HidePremium = true, SaveConfig = false, ConfigFolder = "Whyusethis?", IntroEnabled = true, IntroText = "kpub - the best free script hub."})
 
 ----- Notifications
 
