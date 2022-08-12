@@ -23,8 +23,7 @@ This is a list of the features my script hub has. (This list always updates when
 
 [ + ] Infinite Yield [ + ]
 [ + ] Domain X [ + ]
-[ + ] CMD X [ + ]
-[ + ] Universal Silent Aim
+[ + ] Universal Silent Aim [ + ]
 [ + ] Vxpe [ + ]
 
 [ ⭐ ] Script Hubs [ ⭐ ]
@@ -55,9 +54,12 @@ This is a list of the features my script hub has. (This list always updates when
 [ + ] Kick Yourself [ + ]
 
 
-
-Our hub is also open source, so what are you waiting for? Try it out! (the scripts could be obfuscated)
-
 [ ⭐ Script ⭐ ]
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Streekaiz/kpubsrc/main/Source%20Code', true))()
+
+· Notes
+
+Script is obfuscated, meaning some executors might not be able to execute. 
+
+Known executors that support this script is krnl, scriptware, and synapse X (others might be able to execute)
