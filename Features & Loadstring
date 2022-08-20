@@ -1,67 +1,132 @@
-This is a list of the features my script hub has. (This list always updates when I update src.)
+[★] Games
 
-(there is a lot more, Im just too lazy to list them here.)
+| A
+| 
+| Anomic
+| Anime Fighters Simulator
+| A Universal Time
 
-[ ⭐ ] Games [ ⭐ ]
+| B
+| 
+| Bedwars
+| Bee Swarm Simulator
+| Break In
+| Booga Booga Classic
 
-[ + ] Anomic [ + ]
-[ + ] A Universal Time [ + ]
-[ + ] Bedwars [ + ]
-[ + ] Break In [ + ]
-[ + ] Booga Booga Classic [ + ]
-[ + ] Combat Warriors [ + ]
-[ + ] Da Hood [ + ]
-[ + ] Freeze Tag Extreme [ + ]
-[ + ] Kat (key and no key) [ + ]
-[ + ] Lifting Simulator [ + ]
-[ + ] Mining Simulator 2 [ + ]
-[ + ] Muscle Legends [ + ]
-[ + ] Skywars [ + ]
-[ + ] Stand Upright Rebooted [ + ]
-[ + ] Specter 2 [ + ]
-[ + ] Shindo Life [ + ]
+| C
+| 
+| Combat Warriors
+| CBRO Remastered
+| 
+| D
+| 
+| Da Hood Autofarm
+| Da Hood Antilock
+| (soon) Da Hood Legit & Blatant Script
+| Destruction Simulator
 
-[ ⭐ ] Universal Scripts [ ⭐ ]
+| F
+| 
+| Freeze Tag Extreme
 
-[ + ] Infinite Yield [ + ]
-[ + ] Domain X [ + ]
-[ + ] Universal Silent Aim [ + ]
-[ + ] Vxpe [ + ]
+| R
+| 
+| Rebirth Champions X
+| Raise a Floppa 2
+| Ragdoll Engine
 
-[ ⭐ ] Script Hubs [ ⭐ ]
+| I
+| 
+| Isle 9
 
-[ + ] Crypt Hub [ + ]
-[ + ] Soggy Hub [ + ]
-[ + ] Universal FE Script Hub [ + ]
+| K
+| 
+| Kat (Key and no key system.)
 
-[ ⭐ ] FE Scripts [ ⭐ ]
+| L
+| 
+| Lifting Simulator
 
-[ + ] FE Helicopter [ + ]
-[ + ] FE Minecraft Ghast (that can fling) [ + ]
-[ + ] FE Ragdoll [ + ]
+| M
+| 
+| Mining Simulator
+| Muscle Legends
 
-[ ⭐ ] Misc/Tools [ ⭐ ]
+| S
+| 
+| Skywars
+| Stand Upright Rebooted
+| Specter 2
+| SCP 3008
 
- [][ + ][] Player
+[★]  FE
 
-[ + ] Walkspeed & Jumppower Slider
-[ + ] Infinite Jump
+| Popular
+| 
+| Simplity
 
- [][ + ][] Others
+| No Hats
+| 
+| FE Ragdoll (Passive)
+| FE Human Car
+| FE Bird (Passive)
+| FE Black Hole
+| FE Go Crazy (Passive)
+| FE Table (Passive)
+| FE Helicopter (Passive)
 
-[ + ] Ctrl TP [ + ]
-[ + ] FPS Unlocker [ + ]
-[ + ] Autoclicker [ + ]
-[ + ] Remote Spy [ + ]
-[ + ] Kick Yourself [ + ]
+| Free Hats
+| 
+| FE Control Nameless NPC (Passive)
+| FE Hat Fling
+| FE Dio Stand
+| FE Minecraft Ghast
 
+| Paid Hats
+| 
+| FE Jetpack 
+| FE Sniper
 
-[ ⭐ Script ⭐ ]
+[★]  Universal
+
+| Infinite Yield
+| Domain X
+| Universal ESP
+| Universal Silent Aim
+| (soon) Universal Hitbox Expander
+| Vxpe
+
+[★]  Hubs 
+
+| Universal
+|
+| Universal FE Script Hub
+| Universal Animation Script Hub
+
+| Regular Hubs (You will also be able to view the game support for these hubs.)
+|
+| Soggy Hub
+| Zen Hub
+| B Genesis Hub
+
+[★]  Misc/Tools
+
+| Player
+|
+| Walkspeed & Jumppower Textbox
+| Infinite Jump
+
+| Tools
+|
+| Remote Spy
+| Backdoor Scanner
+| Dark Dex
+
+| Others
+|
+| FOV Changer
+| Ctrl TP
+| Autoclicker
+
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Streekaiz/kpubsrc/main/Source%20Code', true))()
-
-· Notes
-
-Script is obfuscated, meaning some executors might not be able to execute. 
-
-Known executors that support this script is krnl, scriptware, and synapse X (others might be able to execute)
