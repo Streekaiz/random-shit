@@ -128,5 +128,29 @@
 | Ctrl TP
 | Autoclicker
 
+Overall:
 
+25 Games
+14 FE Scripts
+5 Universal Scripts 
+5 Hubs
+8 Misc/Tools
+
+
+[★]  Script
+
+print("Any issues with the script? Join the discord and report the issue to @streekaiz#1132")
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Streekaiz/kpubsrc/main/Source%20Code', true))()
+
+[★]  Additional Notes
+
+Only supported on KRNL & Synapse (No idea if this works for scriptware.)
+
+| Just a small project. I may discontinue it whenever I want.
+| 
+| Hub will not get many updates either, but if I did it would be likely:
+| 
+| • Small changes, like changing a slider to a textbox.
+| • Updating a game's script.
+| • Swapping out dead games for more popular games.
+| • UI
