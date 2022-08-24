@@ -7,3 +7,7 @@ EDIT:
 The script hub won't be updated often anymore, since I have school and other IRL stuff.
 If I end up not updating it (in 2-3 months), I will make it open source.
 We are still a script library though, so you should join. I just do not have time to add a button n stuff and obfuscate again.
+
+kpub is discontinued.
+Please go to my other repo and look for "Moonlight".
+It will be just like kpub, but with more games n shit ig
