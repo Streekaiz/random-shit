@@ -1,4 +1,4 @@
---pw-remake
+-- da hood, i would like to thank retracted (from the CBRO hvh community)
 
 
 local GetService = setmetatable({}, {
