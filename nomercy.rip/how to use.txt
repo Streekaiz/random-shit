@@ -1,0 +1,62 @@
+--[[------------------------------------------------
+|
+|    Library Made for IonHub (discord.gg/seU6gab)
+|    Developed by tatar0071#0627 and tested#0021
+|    IF YOU USE THIS, PLEASE CREDIT DEVELOPER(S)!
+|
+--]]------------------------------------------------
+
+
+local esp, esp_renderstep, framework = loadstring(game:HttpGet("https://pastebin.com/raw/HLUXVbPH"))();
+local players = game.Players;
+for _, player in pairs(players:GetPlayers()) do
+    if player == players.LocalPlayer then continue; end;
+    esp:Player(player);
+end;
+players.PlayerAdded:Connect(function(player)
+    esp:Player(player);
+end);
+players.PlayerAdded:Connect(function(player)
+    local obj = esp:GetObject(player)
+    if obj then
+        obj:Destroy();
+    end;
+end);
+
+--[[
+you need the top code above for the ESP to work.
+]]
+
+esp.Settings.Enabled = boolean; -- needs to have a ; after the value
+
+esp.Settings.Team_Check = boolean;
+
+esp.Settings.Maximal Distance = string;
+
+esp.Settings.Improved_Visible_Check = boolean;
+
+esp.Settings.Box.Enabled = boolean; - for every element (healthbar, name, distance, etc), should have a ".Enabled" after it.
+
+esp.Settings.Box_Outline.Enabled = boolean;
+
+esp.Settings.Healthbar.Enabled = boolean;
+
+esp.Settings.Bold_Text = boolean;
+
+esp.Settings.Name.Enabled = boolean;
+
+esp.Settings.Distance.Enabled = boolean;
+
+esp.Settings.Tool.Enabled = boolean;
+
+esp.Settings.Health.Enabled = boolean; -- modify to _G. for this to work (idk if it still works with getgenv().)
+
+esp.Settings.China_Hat.Enabled
+
+--[[ POSITIONS
+to use positons, replace Enabled with Position. 
+The available positions are Left, Right, Top, and Bottom
+]]
+--[[ COLORS
+change colors in source code.
+]]
