@@ -1,15 +1,3 @@
-getgenv().OldAimPart = "UpperTorso"
-getgenv().AimPart = "UpperTorso" 
-    getgenv().AimlockKey = "q"
-    getgenv().AimRadius = 7.22
-    getgenv().ThirdPerson = true 
-    getgenv().FirstPerson = true
-    getgenv().TeamCheck = false 
-    getgenv().PredictMovement = true
-    getgenv().PredictionVelocity = 25
-    getgenv().CheckIfJumped = true
-    getgenv().Smoothness = true
-    getgenv().SmoothnessAmount = 0.0421
 
     local Players, Uis, RService, SGui = game:GetService"Players", game:GetService"UserInputService", game:GetService"RunService", game:GetService"StarterGui";
     local Client, Mouse, Camera, CF, RNew, Vec3, Vec2 = Players.LocalPlayer, Players.LocalPlayer:GetMouse(), workspace.CurrentCamera, CFrame.new, Ray.new, Vector3.new, Vector2.new;
