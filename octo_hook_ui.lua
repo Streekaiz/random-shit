@@ -3,6 +3,7 @@
     Library Made for https://octohook.xyz/
     Developed by liam#4567
     Modified by tatar0071#0627
+    Modified to work for KRNL.
 
     Ik this code is really shit in some places lol
     will rewrite again i was just using some rly old stuff that i was lazy to rewrite
