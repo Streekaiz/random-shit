@@ -420,7 +420,14 @@ do
         mt.__newindex = newindexcallback
         return proxy
     end
-
+    function utility:MouseOver(obj)
+        local mousePos = inputservice:GetMouseLocation();
+        local x1 = obj.Position.X
+        local y1 = obj.Position.Y
+        local x2 = x1 + obj.Size.X
+        local y2 = y1 + obj.Size.Y
+        return (mousePos.X >= x1 and mousePos.Y >= y1 and mousePos.X <= x2 and mousePos.Y <= y2)
+    end
     function utility:MouseOver(obj)
         local mousePos = inputservice:GetMouseLocation();
         local x1 = obj.Position.X
