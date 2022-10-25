@@ -4573,13 +4573,6 @@ function library:init()
     end
     
     -- Watermark
-    do
-        if not IonHub_User then
-            getgenv().IonHub_User = {
-                UID = 0, 
-                User = "admin"
-            }
-        end
         self.watermark = {
             objects = {};
             text = {
