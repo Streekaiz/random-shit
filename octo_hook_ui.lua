@@ -818,8 +818,7 @@ function library:init()
                         library.draggingSlider:SetValue(val)
                     end
             end
-        end
-    end)
+        end)
     
     function self:SetOpen(bool)
         self.open = bool;
