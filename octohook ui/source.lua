@@ -4576,15 +4576,15 @@ function library:init()
     do
         if not IonHub_User then
             getgenv().IonHub_User = {
-                UID = 0, 
-                User = "admin"
+                UID = "", 
+                User = ""
             }
         end
         self.watermark = {
             objects = {};
             text = {
                 {self.cheatname, true},
-                {("hi"):format(IonHub_User.User, tostring(IonHub_User.UID)), true},
+                {("%s (uid %s)"):format(IonHub_User.User, tostring(IonHub_User.UID)), true}, 
                 {self.gamename, true},
                 {'0 fps', true},
                 {'0ms', true},
