@@ -1,7 +1,5 @@
-small documentary for people that dont know how to use this
-i dont really know most of the ui functions though, to get stuff like warning buttons or whatever go look in src
-
-
+A documentary for octohook's ui.
+This only has some of the main functions.
 **Booting up the library**
 ```
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Streekaiz/random-shit/main/octo_hook_ui.lua"))({cheatname = "", gamename = ""})
