@@ -420,14 +420,7 @@ do
         mt.__newindex = newindexcallback
         return proxy
     end
-    function utility:MouseOver(obj)
-        local mousePos = inputservice:GetMouseLocation();
-        local x1 = obj.Position.X
-        local y1 = obj.Position.Y
-        local x2 = x1 + obj.Size.X
-        local y2 = y1 + obj.Size.Y
-        return (mousePos.X >= x1 and mousePos.Y >= y1 and mousePos.X <= x2 and mousePos.Y <= y2)
-    end
+
     function utility:MouseOver(obj)
         local mousePos = inputservice:GetMouseLocation();
         local x1 = obj.Position.X
@@ -1450,13 +1443,13 @@ function library:init()
 
                 objs.sat1 = utility:Draw('Image', {
                     Size = newUDim2(1,0,1,0);
-            ZIndex = z+3;
+                    ZIndex = z+3;
                     Parent = objs.mainColor;
                 })
 
                 objs.sat2 = utility:Draw('Image', {
                     Size = newUDim2(1,0,1,0);
-            ZIndex = z+4;
+                    ZIndex = z+4;
                     Parent = objs.mainColor;
                 })
 
