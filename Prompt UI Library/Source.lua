@@ -1,3 +1,9 @@
+--[[
+CREDITS TO SUNKEN
+THIS IS A PROMPT UI LIBRARY
+--]]
+
+
 local Library = {}
 
 function Library:New(options)
