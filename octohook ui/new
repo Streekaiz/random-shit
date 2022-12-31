@@ -1,0 +1,28 @@
+getgenv().UISize = UDim2.new(
+	0, -- ignore
+	6000, 
+	0, -- ignore
+	200.7
+)
+
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Streekaiz/random-shit/main/octohook%20ui/source.lua"))()
+Library:init()
+
+local Menu = Library.NewWindow({title = "Lurpohia", size = UDim2.new(0, 500, 0.7, 20.7)})
+---Tabs
+local Tab = {
+	Combat = Menu:AddTab("Combat"),
+	Render = Menu:AddTab("Render"),
+	Misc = Menu:AddTab("Miscellaneous"),
+	Settings = Menu:AddTab("Settings"),
+}
+
+local Section = {
+	Combat = {
+		[1] = Tab.Combat:AddSection("Aim Lock", 1),
+		[2] = Tab.Combat:AddSection("Silent Aim", 2),
+		[3] = Tab.Combat:AddSection("Dot Lock", 2),
+		[4] = Tab.Combat:AddSection("Triggerbot", 2)
+	}
+}
