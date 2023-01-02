@@ -12,7 +12,6 @@ getgenv().Aimbot = {
       "Player3"
    },
    AimAtPart = "Head",
-   Key = "E",
    FOV = {
       Enabled = true,
       Filled = false,
