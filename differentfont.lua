@@ -5,7 +5,6 @@ local CoreGui = game:GetService('CoreGui');
 local RenderStepped = game:GetService('RunService').RenderStepped;
 local LocalPlayer = game:GetService('Players').LocalPlayer;
 local Mouse = LocalPlayer:GetMouse();
-getgenv().Font = Enum.Font.SourceSansBold
 local ProtectGui = protectgui or (syn and syn.protect_gui) or (function() end);
 
 local ScreenGui = Instance.new('ScreenGui');
@@ -80,7 +79,7 @@ end;
 function Library:CreateLabel(Properties, IsHud)
     local _Instance = Library:Create('TextLabel', {
         BackgroundTransparency = 1;
-        Font = getgenv().Font;
+        Font = Enum.Font.SourceSansBold;
         TextColor3 = Library.FontColor;
         TextSize = 16;
         TextStrokeTransparency = 0;
@@ -356,8 +355,8 @@ do
             Parent = HueSelectorOuter;
         });
 
-        local HueTextSize = Library:GetTextBounds('Hex color', getgenv().Font, 16) + 3
-        local RgbTextSize = Library:GetTextBounds('255, 255, 255', getgenv().Font, 16) + 3
+        local HueTextSize = Library:GetTextBounds('Hex color', Enum.Font.SourceSansBold, 16) + 3
+        local RgbTextSize = Library:GetTextBounds('255, 255, 255', Enum.Font.SourceSansBold, 16) + 3
 
         local HueBoxOuter = Library:Create('Frame', {
             BorderColor3 = Color3.new(0, 0, 0);
@@ -394,7 +393,7 @@ do
             BackgroundTransparency = 1;
             Position = UDim2.new(0, 5, 0, 0);
             Size = UDim2.new(1, -5, 1, 0);
-            Font = getgenv().Font;
+            Font = Enum.Font.SourceSansBold;
             PlaceholderColor3 = Color3.fromRGB(190, 190, 190);
             PlaceholderText = 'Hex color',
             Text = '#FFFFFF',
