@@ -5,7 +5,7 @@ local CoreGui = game:GetService('CoreGui');
 local RenderStepped = game:GetService('RunService').RenderStepped;
 local LocalPlayer = game:GetService('Players').LocalPlayer;
 local Mouse = LocalPlayer:GetMouse();
-
+getgenv().Font = Enum.Font.SourceSansBold
 local ProtectGui = protectgui or (syn and syn.protect_gui) or (function() end);
 
 local ScreenGui = Instance.new('ScreenGui');
