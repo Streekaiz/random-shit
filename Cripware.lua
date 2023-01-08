@@ -365,7 +365,7 @@ function library.new(library_title, cfg_location)
             }, SectionButton)
 
             local UIGradient = library:create("UIGradient", {
-                Color = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(32, 33, 38)), ColorSequenceKeypoint.new(0.5, Color3.fromRGB(247, 49, 122)), ColorSequenceKeypoint.new(1, Color3.fromRGB(32, 33, 38))},
+                Color = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(247, 49, 122)), ColorSequenceKeypoint.new(0.5, Color3.fromRGB(247, 49, 122)), ColorSequenceKeypoint.new(1, Color3.fromRGB(247, 49, 122))},
             }, SectionDecoration)
 
             local SectionFrame = library:create("Frame", {
@@ -873,19 +873,6 @@ function library.new(library_title, cfg_location)
                                 AutoButtonColor = false,
                                 Text = "",
                             }, ColorFrame)
-
-                            local UIGradient = library:create("UIGradient", {
-                                Rotation = 90,
-                                Color = ColorSequence.new {
-                                    ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 0)),
-                                    ColorSequenceKeypoint.new(0.17, Color3.fromRGB(255, 0, 255)),
-                                    ColorSequenceKeypoint.new(0.33, Color3.fromRGB(0, 0, 255)),
-                                    ColorSequenceKeypoint.new(0.50, Color3.fromRGB(0, 255, 255)),
-                                    ColorSequenceKeypoint.new(0.67, Color3.fromRGB(0, 255, 0)),
-                                    ColorSequenceKeypoint.new(0.83, Color3.fromRGB(255, 255, 0)),
-                                    ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 0, 0))
-                                }
-                            }, HuePicker)
 
                             local HuePick = library:create("ImageButton", {
                                 Name = "HuePick",
