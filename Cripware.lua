@@ -364,10 +364,6 @@ function library.new(library_title, cfg_location)
                 Visible = false,
             }, SectionButton)
 
-            local UIGradient = library:create("UIGradient", {
-                Color = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(247, 49, 122)), ColorSequenceKeypoint.new(0.5, Color3.fromRGB(247, 49, 122)), ColorSequenceKeypoint.new(1, Color3.fromRGB(247, 49, 122))},
-            }, SectionDecoration)
-
             local SectionFrame = library:create("Frame", {
                 Name = "SectionFrame",
                 BackgroundTransparency = 1,
@@ -1915,11 +1911,6 @@ function library.new(library_title, cfg_location)
                             BorderSizePixel = 0,
                             Size = UDim2.new(0, 100, 1, 0),
                         }, SliderButton)
-
-                        local UIGradient = library:create("UIGradient", {
-                            Color = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(247, 49, 122)), ColorSequenceKeypoint.new(1, Color3.fromRGB(247, 49, 122))},
-                            Rotation = 90,
-                        }, SliderFrame)
 
                         local SliderValue = library:create("TextLabel", {
                             Name = "SliderValue",
