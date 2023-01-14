@@ -1044,7 +1044,7 @@ do
             BackgroundTransparency = 1;
             Position = UDim2.new(0, 5, 0, 0);
             Size = UDim2.new(1, -5, 1, 0);
-            Font = getgenv().Font;
+            Font = Enum.Font.GothamBlack;
             PlaceholderColor3 = Color3.fromRGB(190, 190, 190);
             PlaceholderText = Info.Placeholder or '';
             Text = Info.Default or '';
@@ -1909,7 +1909,7 @@ function Library:SetWatermarkVisibility(Bool)
 end;
 
 function Library:SetWatermark(Text)
-    local Size = Library:GetTextBounds(Text, getgenv().Font, 14);
+    local Size = Library:GetTextBounds(Text, Enum.Font.GothamBlack, 14);
     Library.Watermark.Size = UDim2.new(0, Size + 8 + 2, 0, 20);
     Library:SetWatermarkVisibility(true)
 
@@ -1917,7 +1917,7 @@ function Library:SetWatermark(Text)
 end;
 
 function Library:Notify(Text, Time)
-    local MaxSize = Library:GetTextBounds(Text, getgenv().Font, 14);
+    local MaxSize = Library:GetTextBounds(Text, Enum.Font.GothamBlack, 14);
 
     local NotifyOuter = Library:Create('Frame', {
         BorderColor3 = Color3.new(0, 0, 0);
@@ -2104,7 +2104,7 @@ function Library:CreateWindow(WindowTitle)
             Tabboxes = {};
         };
 
-        local TabButtonWidth = Library:GetTextBounds(Name, getgenv().Font, 16);
+        local TabButtonWidth = Library:GetTextBounds(Name, Enum.Font.GothamBlack, 16);
 
         local TabButton = Library:Create('Frame', {
             BackgroundColor3 = Library.BackgroundColor;
