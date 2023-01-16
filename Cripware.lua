@@ -336,9 +336,6 @@ do
         --
         local function lerp()
             for i,v in pairs(instanceTo) do
-                if instance.__OBJECT_EXISTS then
-                    instance[i] = ((v - currentIndex[i]) * currentTime / instanceTime) + currentIndex[i]
-                end
             end
         end
         --
@@ -610,26 +607,11 @@ do
             --
             for i,v in next, library.hidden do
                 coroutine.wrap(function()
-                    if v[1] and v[1].Remove and v[1].__OBJECT_EXISTS then
-                        local instance = v[1]
-                        v[1] = nil
-                        v = nil
-                        --
-                        instance:Remove()
-                    end
                 end)()
             end
             --
             for i,v in pairs(library.drawings) do
                 coroutine.wrap(function()
-                    if v[1] and v[1].Remove and v[1].__OBJECT_EXISTS then
-                        local instance = v[1]
-                        v[2] = nil
-                        v[1] = nil
-                        v = nil
-                        --
-                        instance:Remove()
-                    end
                 end)()
             end
             --
@@ -3250,17 +3232,8 @@ local GameName = game:GetService("MarketplaceService"):GetProductInfo(game.Place
                                 if not button.confirmable then
                                     return
                                 end
-                                if button_title.__OBJECT_EXISTS then
-                                    button_title.Text = ("Confirm? [%s]"):format(i)
-                                end
                             end
                             --
-                            if button_title.__OBJECT_EXISTS then
-                                button.confirmable = false
-                                --
-                                button_title.Text = name
-                                button_title.Color = theme.textcolor
-                            end
                         end)
                     end
                 else
