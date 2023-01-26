@@ -192,7 +192,7 @@ Highlight.Name = "Chams"
 for _, v in next, GetPlayers do
 	if v.Name ~= Players.LocalPlayer.Name then
 		repeat task.wait() until v.Character
-		if not table.find(Settings.Whitelist, v.Name) then
+		if not table.find(Settings.Whitelist, v.Name) and not v.Character:FindFirstChild("Chams") then
 			local Clone = Highlight:Clone()
 			Clone.Parent = v.Character
 			Clone.Enabled = Settings.Enabled
@@ -232,7 +232,7 @@ game:GetService("RunService").Heartbeat:Connect(function()
 	    if v.Name ~= Players.LocalPlayer.Name then
 		    repeat task.wait() until v.Character
 			if v.Character:FindFirstChild("Chams") then
-				if not table.find(Settings.Whitelist, v.Name) then
+				if not table.find(Settings.Whitelist, v.Name) and not v.Character:FindFirstChild("Chams") then
 			    	v.Character:FindFirstChild("Chams").Enabled = Settings.Enabled
 				    local Clone = v.Character:FindFirstChild("Chams")
 				    Clone.Parent = v.Character
