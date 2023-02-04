@@ -46,7 +46,7 @@ section1:Box{
     Name = "Prediction",
     Placeholder = "Prediction Value",
     Flag = "Prediction",
-	Default = getgenv().Prediction or "0.18",
+	Default = "0.18",
 	Callback = function(Value)
 	getgenv().Prediction = (  Value  )
 	end
