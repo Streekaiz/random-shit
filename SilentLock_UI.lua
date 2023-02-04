@@ -212,20 +212,3 @@ section5:ColorPicker{
         library:ChangeThemeOption("Accent", color)
     end
 }
-section5:Seperator("Watermark")
-section5:Toggle{
-    Name = "Enabled",
-    Flag = "Watermark",
-    Default = getgenv().Show_Watermark or false,
-    Callback  = function(Value)
-	watermark:Hide()
-    end
-}
-game:GetService("RunService").RenderStepped:Connect(function(delta)
-    watermark:Set(
-		"Noss's Silent Lock | " .. 
-		math.round(1 / delta) .. 
-		" FPS | " .. 
-		game:GetService("Stats").Network.ServerStatsItem["Data Ping"]:GetValueString(math.round(2 / v))
-		.. " Ping")
-end)
