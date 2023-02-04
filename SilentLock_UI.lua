@@ -5,7 +5,6 @@ local main = library:Load{
     SizeX = 600,
     SizeY = 380,
 }
-getgenv().ToggleKey = (  "E"  )
 local tab = main:Tab("Noss's Silent Lock | " .. os.date("%b, %d, %A") )
 
 local section = tab:Section{
