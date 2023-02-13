@@ -3056,4 +3056,4 @@ function library:new_window(cfg)
     --
     return window_tbl;
 end;
-return library;
+return library, themes;
