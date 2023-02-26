@@ -25,9 +25,9 @@ local library = {
     hovers = {},
     Relations = {},
     folders = {
-        main = "Atlanta",
-        assets = "Atlanta/Images",
-        configs = "Atlanta/Configs"
+        main = "Vrita",
+        assets = "Vrita/Images",
+        configs = "Vrita/Configs"
     },
     shared = {
         initialized = false,
