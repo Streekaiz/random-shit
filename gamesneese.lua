@@ -1352,7 +1352,7 @@ do
                 do -- Chams
                     for Index = 1, 2 do
                         local transparency = Index == 1 and 0.75 or 0.5
-                        local color = Index == 1 and Color3.fromRGB(93, 62, 152) or Color3.fromRGB(255, 255, 255)
+                        local color = Index == 1 and Color3.fromRGB(0, 0, 0) or Color3.fromRGB(255, 255, 255)
                         --
                         local extrasize = Index == 1 and 4 or 0
                         local extraoffset = Index == 1 and -2 or 0
