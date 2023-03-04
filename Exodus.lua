@@ -1917,6 +1917,7 @@ function components.dropdown(holder, options, zindex)
         Size = newUDim2(1, 0, 0, 15),
         Position = newUDim2(0, 0, 0, 18),
         ZIndex = zindex,
+        Visible = true,
         Theme = "Object Background",
         OutlineTheme = "Object Border"
     })
