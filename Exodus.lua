@@ -5024,7 +5024,7 @@ function library:Load(options)
                     return components.slider(holder, options)
                 end
 
-                function section_types:Dropdown(options)
+                function section_types:Dropdown(name, options)
                     utility.format(options)
                     options.name = options.name or "dropdown"
     
@@ -5037,11 +5037,12 @@ function library:Load(options)
                     })
 
                     holder.main:Create("Text", {
-                        Text = options.name,
+                        Text = name,
                         Font = library.font,
                         Size = library.font_size,
                         Theme = "Text",
-                        ZIndex = 8
+                        ZIndex = 8,
+                        Position = UDim2.new(0, 0, 0, -2)
                     })
     
                     return components.dropdown(holder, options)
