@@ -5471,22 +5471,23 @@ function library:Load(options)
                 library:Unload();
             end
         }
-
-        misc:Button{
+        
+        local gtab = settings:Section{Name = "Game", Side = "Right"}
+        gtab:Button{
             name = "Copy Game Invite (CONSOLE)",
             callback = function()
                 setclipboard(('Roblox.GameLauncher.joinGameInstance(%s, "%s")'):format(game.PlaceId, game.JobId))
             end
         }
 
-        misc:Button{
+        gtab:Button{
             name = "Copy Game Invite (LUA)",
             callback = function()
                 setclipboard(('game:GetService("TeleportService"):TeleportToPlaceInstance(%s, "%s")'):format(game.PlaceId, game.JobId))
             end
         }
 
-        misc:Button{
+        gtab:Button{
             name = "Join Discord Server",
             callback = function()
                 request{
@@ -5505,7 +5506,7 @@ function library:Load(options)
             end
         }
 
-        misc:Button{
+        gtab:Button{
             name = "Copy Discord Invite",
             callback = function()
                 setclipboard(library.discord)
